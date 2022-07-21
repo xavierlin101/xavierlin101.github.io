@@ -28,14 +28,14 @@ nav li{
 	margin-top: 20px;
 }
 .btn{
-    background-color: #F2DF3A;
+    background-color: #395B64;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
 }
 .btn:hover{
 	opacity:0.8;
-	background-color: #F2DF3A!important;
+	background-color: #f05f5c!important;
 }
 #second{
 	padding: 80px 0px;
