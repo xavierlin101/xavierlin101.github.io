@@ -4,14 +4,35 @@ h1,h2,h3,h4,h5,h6{
 p,a,span,li,label{
 	font-family: 'Open Sans', sans-serif;
 }
+
 img{
 	max-width:100%;
 }
 nav li{
 	    margin: 0 13px;
 }
+.bg-head{ /*導覽列顏色*/
+	background-color:#F9F5EB;
+   }
+.bg-body{ /*主文顏色*/
+	background-color:#607EAA;
+   }   
+.btn-form{
+    background-color: #217d37;
+	color:#FFF;
+    border: 1px solid #707070;
+    padding: 10px 24px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.btn-form:hover{
+	text-decoration: none;
+	opacity: 0.8;
+	color: #707070;
+}
 #intro .jumbotron{
-	background: url('../pictures/mainbg.png');
+	background: #FFF9CA;
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -61,6 +82,11 @@ p{
 p.lead{
 	color: black;
 	line-height: 31px;
+	font-weight: bolder;
+}
+p.content{
+	color: black;
+	line-height: 26px;
 }
 #latest {
 	background: rgb(248, 248, 248);
