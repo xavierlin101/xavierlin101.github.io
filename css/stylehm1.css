@@ -4,7 +4,9 @@ h1,h2,h3,h4,h5,h6{
 p,a,span,li,label{
 	font-family: 'Open Sans', sans-serif;
 }
-
+header{
+	font-size: 24px;
+}
 img{
 	max-width:100%;
 }
